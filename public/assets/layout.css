@@ -1,0 +1,149 @@
+body {
+  /* background-color: rgb(238, 238, 255); */
+  background: url(../assets/image/footer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* .blure:hover .card {
+  filter: blur(1.5px);
+  transition: 0.4s;
+}
+.blure .card:hover {
+  filter: blur(0);
+  transition: 0.4s;
+} */
+.card {
+  transition: 0.5s;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.178);
+  transition: 0.5s;
+}
+
+i {
+  font-size: small;
+}
+
+footer {
+  bottom: 0;
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+strong {
+  color: rgb(255, 255, 255);
+}
+strong a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.scrollt {
+  overflow: auto;
+  max-height: 1000px;
+}
+input[type="text"] {
+  text-transform: uppercase;
+}
+#pip,
+#pkh,
+#kks {
+  text-transform: none;
+}
+label b {
+  color: red;
+}
+tr td a {
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+}
+
+/* tr .daftar:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+} */
+#tabelData #seluruh {
+  background-color: rgb(202, 202, 202);
+  text-align: center;
+  font-size: 10px;
+}
+#tabelData,
+#seluruh,
+#seluruh_kolom {
+  border: 1px solid rgb(180, 180, 180);
+  background-color: white;
+  margin: 10px;
+  font-size: 9.5px;
+  width: auto;
+}
+.tabelData tr:nth-child(even) {
+  background-color: #a8a8a8;
+}
+
+li a b {
+  color: rgb(124, 124, 255);
+}
+.no-daftar-val {
+  background-color: rgba(0, 187, 0, 0.705);
+  width: 24px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  width: 38px;
+}
+.no-daftar-inval {
+  background-color: rgb(255, 182, 24);
+  width: 24px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  margin: auto;
+  width: 38px;
+}
+#popup::after {
+  transition: 0.5s;
+}
+.text-center {
+  padding: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .col-sm-6 {
+    width: 70%;
+  }
+  .col-sm-8 {
+    width: 70%;
+  }
+  .col-sm-3 {
+    width: 30%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-sm-4 {
+    width: 40%;
+  }
+  .col-sm-1 {
+    width: 10%;
+  }
+  .col-sm-5 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .col-sm-6 {
+    width: 70%;
+  }
+  .col-sm-8 {
+    width: 70%;
+  }
+  .col-sm-3 {
+    width: 30%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+}
